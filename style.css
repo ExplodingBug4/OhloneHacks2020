@@ -4,6 +4,7 @@ html, body {
     padding: 0;
 }
 
+/* Class Name */
 .topHeader {
     background: #9D3734;
     /* display: value; Use this for website resizing */
@@ -16,6 +17,7 @@ html, body {
     text-decoration: none;
     color: black;
 }
+
 .topHeader .hamburger {
     float: left;
     font-size: 30px;
@@ -31,4 +33,15 @@ html, body {
     border-radius: 100px;
     margin-right: 28px;
     margin-top: 10px;
+}
+
+.boomer p{
+    font-size: 40px;
+    font-weight: 100;
+    margin-left: 530px;
+}
+
+iframe {
+    display: block;
+    margin: auto;
 }
