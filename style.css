@@ -15,11 +15,11 @@ html, body {
 .topHeader a {
     text-decoration: none;
     color: black;
-}
-.topHeader .hamburger {
-    float: left;
     font-size: 30px;
-    margin-left: 10px;
+}
+.topHeader p:hover {
+    border-color: #349D37;
+    background-color: #349D37;
 }
 .topHeader p{
     padding: 12px 40px;
@@ -31,4 +31,38 @@ html, body {
     border-radius: 100px;
     margin-right: 28px;
     margin-top: 10px;
+}
+.hamburger {
+    float: left;
+    font-size: 30px;
+    margin-left: 10px;
+}
+.hamburger ul {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    list-style: none;
+    transform: translateY(-10px);
+    transition: all 0.4s ease;
+    margin-top: -1px;
+    margin-left: -38px;
+    /*opacity: 0;
+    pointer-events: none;*/
+    display: none;
+}
+
+.hamburger p{
+    float: left;
+}
+.hamburger button {
+    font-size: 30px;
+}
+.hamburger button:focus + ul{
+    transform: translateY(0px);
+    /*opacity: 1;
+    pointer-events: all;*/
+    display: block;
 }
