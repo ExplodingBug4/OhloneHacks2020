@@ -16,12 +16,11 @@ html, body {
 .topHeader a {
     text-decoration: none;
     color: black;
-}
-
-.topHeader .hamburger {
-    float: left;
     font-size: 30px;
-    margin-left: 10px;
+}
+.topHeader p:hover {
+    border-color: #349D37;
+    background-color: #349D37;
 }
 .topHeader p{
     padding: 12px 40px;
@@ -37,11 +36,50 @@ html, body {
 
 .boomer p{
     font-size: 40px;
-    font-weight: 100;
-    margin-left: 530px;
+    font-weight: 1;
+    margin-left: 520px;
 }
 
 iframe {
     display: block;
     margin: auto;
+    margin-top: 120px;
 }
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-family: arial;
+   }
+   
+   ul li {
+    
+    width: 200px;
+    height: 60px;
+    background-color: green;
+    opacity: 1;
+    line-height: 60px;
+    text-align: center;
+    font-size: 20px;
+    color: 
+   }
+   
+   ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+   }
+   
+   ul li a:hover {
+    background-color: rgba(53, 136, 74, 0.979);
+   }
+   
+   ul li ul li{
+    display: none;
+   }
+   
+   ul li:hover ul li {
+    display: block;
+   }
+
