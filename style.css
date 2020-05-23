@@ -1,0 +1,34 @@
+html, body {
+    background: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.topHeader {
+    background: #9D3734;
+    /* display: value; Use this for website resizing */
+    display: block;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+}
+.topHeader a {
+    text-decoration: none;
+    color: black;
+}
+.topHeader .hamburger {
+    float: left;
+    font-size: 30px;
+    margin-left: 10px;
+}
+.topHeader p{
+    padding: 12px 40px;
+    float: right;
+    font-size: 20px;
+    line-height: 14px;
+    font-weight: 100;
+    border: solid black 1px;
+    border-radius: 100px;
+    margin-right: 28px;
+    margin-top: 10px;
+}
