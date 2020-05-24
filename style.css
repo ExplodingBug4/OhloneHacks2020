@@ -10,6 +10,7 @@ body{
     overflow:visible;
 }
 
+/* INDEX.HTML */
 .topHeader {
     background: #9D3734;
     /* display: value; Use this for website resizing */
@@ -53,11 +54,9 @@ body{
     min-height: 850px;
     text-align: center;
 }
-
 .boxes {
     width: 100%;
 }
-
 .boxCell {
     width: 400px;
     height: 400px;
@@ -82,26 +81,23 @@ body{
     color: white;
 }
 
+/* DEMO.HTML */
 #youtube-video {
     display: block;
     margin: auto;
     margin-top: 120px;
 }
-
 #world-chart {
     display: block;
     margin: auto;
 }
-
 ul {
     margin: 0px;
     padding: 0px;
     list-style: none;
     font-family: arial;
    }
-   
-   ul li {
-    
+   ul li { 
     width: 200px;
     height: 68px;
     background-color: green;
@@ -110,25 +106,22 @@ ul {
     text-align: center;
     font-size: 20px;
    }
-   
    ul li a {
     text-decoration: none;
     color: white;
     display: block;
    }
-   
    ul li a:hover {
     background-color: rgba(53, 136, 74, 0.979);
    }
-   
    ul li ul li{
     display: none;
    }
-   
    ul li:hover ul li {
     display: block;
    }
 
+/* NOTES.HTML */
 .headerTwo p {
     text-align: center;
     font-size: 20px;
@@ -139,7 +132,6 @@ ul {
     margin-left: 35vw;
     margin-right: 35vw;
 }
-
 .cardTable {
     position: absolute;
     display: table;
@@ -149,7 +141,6 @@ ul {
     margin-left: 5vw;
     margin-right: 5vw;
 }
-
 .card {
     position: relative;
     display: table-cell;
@@ -164,19 +155,15 @@ ul {
     border-radius: 100px;
     
 }
-
 .card .title {
     font-size: 30px;
 }
-
 .card .text {
     font-size: 20px;
 }
-
 .card:hover {
     transform: rotateY(180deg);
 }
-
 .cardFront {
     position: absolute;
     width: 100%;
@@ -187,7 +174,6 @@ ul {
     border: solid black 2px;
     border-radius: 100px;
 }
-
 .cardBack {
     position: absolute;
     width: 100%;
@@ -199,7 +185,8 @@ ul {
     border: solid black 2px;
     border-radius: 100px;
 }
-
 .row {
     display: table-row;
 }
+
+/* ABOUT.HTML */
