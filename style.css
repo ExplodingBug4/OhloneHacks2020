@@ -5,7 +5,7 @@ html, body {
 }
 
 /* Class Name */
-body{
+body {
     overflow:scroll;
     overflow:visible;
 }
@@ -13,11 +13,10 @@ body{
 /* INDEX.HTML */
 .topHeader {
     background: rgb(14, 14, 31);
-    /* display: value; Use this for website resizing */
     display: block;
     width: 100%;
     height: 68px;
-    line-height: 9vh;
+    line-height: 10vh;
 }
 .topHeader a {
     text-decoration: none;
@@ -28,7 +27,7 @@ body{
     border-color: #349D37;
     background-color: #349D37;
 }
-.topHeader p{
+.topHeader p {
     padding: 1vh 1vw 1vh 1vw;
     margin: -52.5px 1vw 0vh 1vw;
     float: right;
@@ -44,7 +43,6 @@ body{
 }
 .mainPage {
     padding: 0;
-    
     background-image: url(Pictures/backgroon.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -109,7 +107,7 @@ body{
 .demoPage #text {
     text-align: center;
     color: white;
-    font-size: 20px;
+    font-size: 42px;
     font-family: sans-serif;
     border: solid white 1px;
     border-radius: 10px;
@@ -145,7 +143,7 @@ body{
 .topHeader ul li a:hover {
     background-color: rgba(53, 136, 74);
 }
-.topHeader ul li ul li{
+.topHeader ul li ul li {
     display: none;
 }
 .topHeader ul li:hover ul li {
@@ -213,13 +211,16 @@ body{
 }
 .card-noflip .noflip-text {
     text-align: left;
-    padding-right: 20px;
+    padding-left: 50px;
+    padding-right: 25px;
 }
 .title {
     font-size: 30px;
 }
 .card .text {
     font-size: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 .card:hover {
     transform: rotateY(180deg);
@@ -246,8 +247,9 @@ body{
     border-radius: 100px;
 }
 .cardBack img {
-    width: 420px;
-    height: 420px;
+    max-width: 100%;
+    max-height: 100vh;
+    height: auto;
     margin: 8vh 0vw 0vh 0vw;
 }
 .row {
