@@ -45,7 +45,7 @@ body{
 .mainPage {
     padding: 0;
     margin: 10px;
-    background-image: url(background.png);
+    background-image: url(Pictures/background.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -74,7 +74,7 @@ body{
     margin: 38px 0 0 0;
 }
 .boxCell:hover {
-    background-image: url(COVID-19_Background.jpg);
+    background-image: url(Pictures/COVID-19_Background.jpg);
 }
 .boxCell a {
     text-decoration: none;
