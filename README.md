@@ -11,3 +11,5 @@ Problems:
     -Resizing issues due to different window sizes
     -Ambitious ideas that required javascript and none of us know 
         ->Scratched a lot of ideas
+    -Included a picture of our initial design before coding
+        >Scratched test/game idea due to javascript
